@@ -2509,7 +2509,7 @@ pub fn is_incoming_only() -> SyncReturn<bool> {
 }
 
 pub fn is_outgoing_only() -> SyncReturn<bool> {
-    SyncReturn(true)
+    SyncReturn(false)
 }
 
 pub fn is_custom_client() -> SyncReturn<bool> {

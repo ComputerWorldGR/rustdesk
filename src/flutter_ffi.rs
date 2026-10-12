@@ -2513,7 +2513,7 @@ pub fn is_outgoing_only() -> SyncReturn<bool> {
 }
 
 pub fn is_custom_client() -> SyncReturn<bool> {
-    SyncReturn(crate::common::is_custom_client())
+    SyncReturn(true)
 }
 
 pub fn is_disable_settings() -> SyncReturn<bool> {
